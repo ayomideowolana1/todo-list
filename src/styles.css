@@ -1,0 +1,110 @@
+* {
+  transition: 0.3s ease;
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  background-color: #424242;
+  color: whitesmoke;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
+}
+
+h2{
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+}
+
+main > div {
+  padding: 10px;
+}
+
+main #nav {
+  flex: 1;
+}
+
+main #content {
+  flex: 3;
+}
+
+#contentContainer {
+  border: 1px solid;
+  padding: 10px;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#contentContainer > div {
+  border: 1px solid;
+  padding: 5px;
+}
+
+#projectsContainer {
+  flex: 1;
+}
+#tasksContainer {
+  flex: 2;
+}
+
+.project {
+  border: 1px solid black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.project:hover {
+  border-color: transparent;
+  box-shadow: 0px 0px 3px #424242;
+}
+
+.task {
+  border: 1px solid black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.taskDone {
+  border-color: lawngreen;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+p{
+  margin: 0px;
+}
+
+.buttonContainer{
+  display: flex;
+  gap: 10px;
+}
+
+.active{
+  background-color: lightgreen;
+  color: white;
+}
+
+.activeTask{
+  box-shadow: 0px 0px 3px green;
+  border: none;
+}
